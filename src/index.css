@@ -10,3 +10,12 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+
+.puntero{
+    cursor:pointer;
+}
+
+.paises{
+    max-height: 550px;
+    overflow: auto;
+}
