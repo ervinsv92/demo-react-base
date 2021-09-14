@@ -8,7 +8,7 @@ export const Paises = () => {
 
     useEffect(() => {
         dispatch(getPaises());
-    });
+    }, []);
 
     const handleClick = (pais)=>{
         dispatch(setPais(pais));
